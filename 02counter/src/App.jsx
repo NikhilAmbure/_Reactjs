@@ -13,8 +13,25 @@ function App() {
 
   const addValue = () => {
     counter = counter + 1;
-    setCounter(counter);
-    console.log("clicked", counter);
+    // setCounter(counter);
+    // console.log("clicked", counter);
+
+    // setCounter(counter);
+    // setCounter(counter);
+    // setCounter(counter);
+    // setCounter(counter);
+
+    // It will show 16 in op not 19 
+
+
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+    // setCounter(prevCounter => prevCounter + 1);
+
+    // It will get the prev state and update it correctly. 
+    // So the final value will be 19 in op.
+
   }
 
   const removeValue = () => {
